@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color:#222831 ;
+    color: white;
+}
+
+.lable{
+    background-color:#222831;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    color: white;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row;
+    gap: 60px;
+    font-size: 18px;
+    list-style:none;
+}
+nav ul a{
+    text-decoration: none;
+    color: white;
+}
+nav ul a:hover{
+    color: rgb(193, 162, 162);
+}
+.work{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 60px 60px;
+    min-height:80vh;
+}
+.text h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.text p{
+    height:130px;
+    width:230px
+    
+}
+.hl{
+    color: #00adb5;
+}
+.button{
+    padding: 10px 30px;
+}
+
+.button1{
+    padding: 10px 20px;
+    background:#00adb5;
+    border-radius: 6px;
+    color: #fff;
+    border: none;
+    font-style: 18px;
+    font-weight: 400;
+    box-shadow:0 5px 10px rgba(0,0,0,0);
+    cursor: pointer;
+    transition: transion 0.3 ease;
+}
+.button1:active{
+    transform:scale(0.98);
+}
+.button2{
+    padding: 10px 20px;
+    background:#333841;
+    border-radius: 6px;
+    color: #fff;
+    border: none;
+    font-style: 18px;
+    font-weight: 400;
+    box-shadow:0 5px 10px rgba(0,0,0,0);
+    cursor: pointer;
+    transition: transion 0.3 ease;
+}
+.button2:active{
+    transform:scale(0.98);
+}
+.img2{
+    margin-top: 220px;
+}
+form{
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+input,
+placeholder {
+    background-color:#333841;
+    resize: none;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    height: 40px;
+    width:250px;
+    color: white;
+}
+
+textarea{
+   background-color:#333841;
+    resize: none;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    height: 240px;
+    color: white;
+    
+}
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
